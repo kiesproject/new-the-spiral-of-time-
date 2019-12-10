@@ -10,7 +10,7 @@ public class Countdown : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        CountDownTime = 10.0F;  // カウントダウン開始秒数をセット
+        CountDownTime = 100.0F;  // カウントダウン開始秒数をセット
     }
 
     // Update is called once per frame

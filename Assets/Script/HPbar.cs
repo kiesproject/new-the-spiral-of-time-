@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 
 
 public class HPbar : MonoBehaviour
@@ -25,6 +27,13 @@ public class HPbar : MonoBehaviour
         hpSlider.value = nowHp;
 
 
+    }
+    private void Update()
+    {
+        if(hpSlider.value <= 0f)
+        {
+            SceneManager.LoadScene("Result");
+        }
     }
 
 }

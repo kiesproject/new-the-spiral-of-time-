@@ -25,9 +25,9 @@ public class invisible : MonoBehaviour
     {
         Button btn = GetComponent<Button>();
 
-        hpSlider.value -= 150f;
+        hpSlider.value -= 100f;
 
-        Countdown.CountDownTime -= 10F;
+        Countdown.CountDownTime -= 1F;
 
         btn.interactable = false;
 
@@ -35,7 +35,7 @@ public class invisible : MonoBehaviour
 
         if(hpSlider.value == 0)
         {
-            SceneManager.LoadScene("End");
+            SceneManager.LoadScene("Result");
         }
 
     }
