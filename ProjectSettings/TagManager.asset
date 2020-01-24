@@ -7,6 +7,7 @@ TagManager:
   - HPbar
   - Timer
   - Button
+  - BUtton1
   layers:
   - Default
   - TransparentFX
