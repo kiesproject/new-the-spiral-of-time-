@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class ReturnTitle : MonoBehaviour
+public class GoBattle: MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -20,6 +20,6 @@ public class ReturnTitle : MonoBehaviour
 
     public void OnClick()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("battle");
     }
 }

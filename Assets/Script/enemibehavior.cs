@@ -22,7 +22,7 @@ public class enemibehavior : MonoBehaviour
     {
         CountDownTime -= Time.deltaTime;
 
-        if (CountDownTime <= 50.0F)
+        if (CountDownTime <= 90.0F)
         {
             card.interactable = false;
         }
