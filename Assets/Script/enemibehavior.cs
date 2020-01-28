@@ -8,7 +8,7 @@ public class enemibehavior : MonoBehaviour
 
     public static float CountDownTime;  // カウントダウンタイム
 
-    Button card;
+    public Button card;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class enemibehavior : MonoBehaviour
     {
         CountDownTime -= Time.deltaTime;
 
-        if (CountDownTime <= 90.0F)
+        if (CountDownTime <= 80.0F)
         {
             card.interactable = false;
         }

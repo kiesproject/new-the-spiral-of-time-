@@ -18,6 +18,7 @@ public class invisible : MonoBehaviour
         //
         GameObject Timer = GameObject.FindWithTag("Timer");
         TimerScript = Timer.GetComponent<Countdown>();
+
     }
 
     //ボタンを押したときに以下を実行

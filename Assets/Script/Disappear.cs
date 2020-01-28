@@ -26,7 +26,6 @@ public class Disappear : MonoBehaviour
         {
             // 非表示にする
             gameObject.SetActive(false);
-            Debug.Log("Button2 click!");
         }
 
     }
